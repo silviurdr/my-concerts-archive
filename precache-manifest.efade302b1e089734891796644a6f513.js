@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/my-concerts-archive/static/media/radiohead2.1918ac7e.jpg"
   },
   {
-    "revision": "d53d00c3d8a0fc4d3369",
-    "url": "/my-concerts-archive/static/css/main.61b75964.chunk.css"
+    "revision": "b8e7f07154ec1ed42f55",
+    "url": "/my-concerts-archive/static/css/main.aa21fefa.chunk.css"
   },
   {
     "revision": "f4d4c3a407cd9fd0fb5f",
@@ -232,7 +232,7 @@ self.__precacheManifest = [
     "url": "/my-concerts-archive/static/media/jamesBlake.dfd2706e.jpg"
   },
   {
-    "revision": "d53d00c3d8a0fc4d3369",
+    "revision": "b8e7f07154ec1ed42f55",
     "url": "/my-concerts-archive/static/js/main.945449aa.chunk.js"
   },
   {
@@ -448,19 +448,19 @@ self.__precacheManifest = [
     "url": "/my-concerts-archive/static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
-    "revision": "b06871f281fee6b241d60582ae9369b9",
-    "url": "/my-concerts-archive/static/media/fontawesome-webfont.b06871f2.ttf"
-  },
-  {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
     "url": "/my-concerts-archive/static/media/fontawesome-webfont.674f50d2.eot"
+  },
+  {
+    "revision": "b06871f281fee6b241d60582ae9369b9",
+    "url": "/my-concerts-archive/static/media/fontawesome-webfont.b06871f2.ttf"
   },
   {
     "revision": "36bcdd988443cc7969a5",
     "url": "/my-concerts-archive/static/css/2.8a54f981.chunk.css"
   },
   {
-    "revision": "cfe36e9e78892976238160854bd910fc",
+    "revision": "d4e1bbd1a8a16bef6e0210e01153227b",
     "url": "/my-concerts-archive/index.html"
   }
 ];
