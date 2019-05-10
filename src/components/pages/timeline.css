@@ -380,6 +380,7 @@ div.timeline-container-left.left.romania {
   .timeline::after  {
     left: 51px;
     top: 50px;
+    width: 3px;
   }
 
   .timeline-top-circle {
@@ -397,22 +398,22 @@ div.timeline-container-left.left.romania {
   .timeline-top-circle::after  {
     content: "";
     position: absolute;
-    width:20px;
-    height: 20px;
-    left: 40px;
+    width:16px;
+    height: 16px;
+    left: 41.49px;
     background-color: #616d1d;
     border: 4px solid #616d1d;
     border-radius: 50%;
-    top: 80%;
+    top: 90%;
     z-index: 4;
   }
 
   .timeline-bottom-circle::after {
     content: "";
     position: absolute;
-    width:20px;
-    height: 20px;
-    left: 40px;
+    width:16px;
+    height: 16px;
+    left: 41.49px;
     background-color: #616d1d;
     border: 4px solid #616d1d;
     border-radius: 50%;
@@ -482,11 +483,11 @@ div.timeline-container-left.left.romania {
   .timeline-container-left.timeline-container.left::before  {
     content: "";
     position: absolute;
-    width: 58px !important; 
-    height: 58px !important;
+    width: 56px !important; 
+    height: 56px !important;
     left: 23px;
     background-color: inherit;
-    border: 4px solid #616d1d;
+    border: 3px solid #616d1d;
     top: 18%;
     z-index: 1;
     background: url("../../images/nosalivelogo-mob.jpg") no-repeat;
@@ -495,11 +496,11 @@ div.timeline-container-left.left.romania {
   .timeline-container-left.timeline-container-left.left.romania::before  {
     content: "";
     position: absolute;
-    width: 58px !important; 
-    height: 58px !important;
+    width: 56px !important; 
+    height: 56px !important;
     left: 23px;
     background-color: inherit;
-    border: 4px solid #616d1d;
+    border: 3px solid #616d1d;
     top: 43%;
     z-index: 1;
     background: url("../../images/romanianconcertslogo-mob.jpg") no-repeat;
@@ -512,7 +513,7 @@ div.timeline-container-left.left.romania {
     height: 58px !important;
     left: 23px;
     background-color: inherit;
-    border: 4px solid #616d1d;
+    border: 3px solid #616d1d;
     top: 28%;
     z-index: 1;
     background: url("../../images/nosalivelogo-mob.jpg") no-repeat;
@@ -521,11 +522,11 @@ div.timeline-container-left.left.romania {
   .timeline-container-left.timeline-container-left.left.rw2017::before  {
     content: "";
     position: absolute;
-    width: 58px !important; 
-    height: 58px !important;
+    width: 56px !important; 
+    height: 56px !important;
     left: 23px;
     background-color: inherit;
-    border: 4px solid #616d1d;
+    border: 3px solid #616d1d;
     top: 27%;
     z-index: 1;
     background: url("../../images/rockwerchter2017logo-mob.jpg") no-repeat;
@@ -534,11 +535,11 @@ div.timeline-container-left.left.romania {
   .timeline-container-left.timeline-container-left.left.rw2018::before  {
     content: "";
     position: absolute;
-    width: 58px !important; 
-    height: 58px !important;
+    width: 56px !important; 
+    height: 56px !important;
     left: 23px;
     background-color: inherit;
-    border: 4px solid #616d1d;
+    border: 3px solid #616d1d;
     top: 27%;
     z-index: 1;
     background: url("../../images/rockwerchter2018logo-mob.jpg") no-repeat;
@@ -547,11 +548,11 @@ div.timeline-container-left.left.romania {
   .timeline-container-right.timeline-container-right.right::before {
     content: "";
     position: absolute;
-    width:58px;
-    height: 58px;
+    width: 56px;
+    height: 56px;
     left: 23px !important;
     background-color: inherit;
-    border: 4px solid #616d1d;
+    border: 3px solid #616d1d;
     top: 23%;
     z-index: 1;
     background: url("../../images/primaverasoundlogo-mob.jpg") no-repeat;
@@ -560,11 +561,11 @@ div.timeline-container-left.left.romania {
   .timeline-container-right.timeline-container-right.right.nosalive::before {
     content: "";
     position: absolute;
-    width:58px;
-    height: 58px;
+    width:56px;
+    height: 56px;
     left: 23px !important;
     background-color: inherit;
-    border: 4px solid #616d1d;
+    border: 3px solid #616d1d;
     top: 33%;
     z-index: 1;
     background: url("../../images/nosalivelogo-mob.jpg") no-repeat;
@@ -573,11 +574,11 @@ div.timeline-container-left.left.romania {
   .timeline-container-right.timeline-container-right.right.rw2013::before {
     content: "";
     position: absolute;
-    width:58px;
-    height: 58px;
+    width:56px;
+    height: 56px;
     left: 23px !important;
     background-color: inherit;
-    border: 4px solid #616d1d;
+    border: 3px solid #616d1d;
     top: 31%;
     z-index: 1;
     background: url("../../images/rockwerchter2013logo-mob.jpg") no-repeat;
@@ -587,11 +588,11 @@ div.timeline-container-left.left.romania {
   .timeline-container-left.timeline-container-left.left.rw2015::before  {
     content: "";
     position: absolute;
-    width: 58px !important; 
-    height: 58px !important;
+    width: 56px !important; 
+    height: 56px !important;
     left: 23px;
     background-color: inherit;
-    border: 4px solid #616d1d;
+    border: 3px solid #616d1d;
     top: 31%;
     z-index: 1;
     background: url("../../images/rockwerchter2015logo-mob.jpg") no-repeat;
