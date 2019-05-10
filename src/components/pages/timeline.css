@@ -400,16 +400,17 @@
 
   .concerts-image {
     display: block;
-    max-width: 200px;
-    height: 117px;
-    background: url("../../images/romania-concerts-sm.jpg") no-repeat;
+    width: 100%;
     text-align: center;
     margin: 0 auto;
+    color: black!important;
+    font-size: 0.6em;
+    padding: 5px 5px 10px 5px;
   }
 
   .year-header {
     font-weight: 900;
-    font-size: 1.7em;
+    font-size: 1.1em;
     color: #f8f3ec;
     text-align: center;
     margin-bottom: 0.5em;
@@ -417,7 +418,7 @@
   
   .concerts-header {
     font-weight: 900;
-    font-size: 1.3em;
+    font-size: 1em;
     color: #e4563e;
     text-align: center;
     margin-bottom: 1em;
@@ -551,7 +552,4 @@
     z-index: 1;
     background: url("../../images/rockwerchter2015logo-mob.jpg") no-repeat;
   }
-
-  
-
 }

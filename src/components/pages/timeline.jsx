@@ -19,7 +19,10 @@ const Timeline = () => {
             <div class="content-border">
               <h2 class="year-header">2010 - 2012</h2>
               <h3 class="concerts-header">Romania</h3>
-              <div class="concerts-image" />
+              <div class="concerts-image">
+                The Cranberries <span>&bull;</span> Massive Attack
+                <span>&bull;</span> Red Hot Chili Peppers
+              </div>
               <div class="concerts-container">
                 <p>
                   <span style={{ paddingLeft: 0 }} class="fourstars-concert">
@@ -39,7 +42,17 @@ const Timeline = () => {
             <div class="content-border">
               <h2 class="year-header">2013</h2>
               <h3 class="concerts-header">Rock Werchter</h3>
-              <div class="concerts-image" />
+              <div class="concerts-image">
+                Balthazar<span>&bull;</span> Biffy Clyro
+                <span>&bull;</span> The National<span>&bull;</span> Sigur Ros
+                <span>&bull;</span> Netsky<span>&bull;</span> The Script
+                <span>&bull;</span> John Legend<span>&bull;</span> Kings of Leon
+                <span>&bull;</span> Blur<span>&bull;</span> Tame Impala
+                <span>&bull;</span> Nick Cave<span>&bull;</span> Rammstein
+                <span>&bull;</span> Band of Horses<span>&bull;</span> Of
+                Monsters and Men
+                <span>&bull;</span> Depeche Mode<span>&bull;</span> Editors
+              </div>
               <div class="concerts-container">
                 <span style={{ paddingLeft: 0 }} class="threestars-concert">
                   Balthazar
@@ -83,7 +96,10 @@ const Timeline = () => {
             <div class="content-border">
               <h2 class="year-header">2015</h2>
               <h3 class="concerts-header">Rock Werchter</h3>
-              <div class="concerts-image" />
+              <div class="concerts-image">
+                The Cranberries <span>&bull;</span> Massive Attack
+                <span>&bull;</span> Red Hot Chili Peppers
+              </div>
               <div class="concerts-container">
                 <span style={{ paddingLeft: 0 }} class="threestars-concert">
                   Chet Faker
@@ -121,7 +137,10 @@ const Timeline = () => {
             <div class="content-border">
               <h2 class="year-header">2016</h2>
               <h3 class="concerts-header">Nos Alive</h3>
-              <div class="concerts-image" />
+              <div class="concerts-image">
+                The Cranberries <span>&bull;</span> Massive Attack
+                <span>&bull;</span> Red Hot Chili Peppers
+              </div>
               <div class="concerts-container">
                 <span style={{ paddingLeft: 0 }} class="onestar-concert">
                   The 1975
@@ -155,7 +174,10 @@ const Timeline = () => {
             <div class="content-border">
               <h2 class="year-header">2017</h2>
               <h3 class="concerts-header">Rock Werchter</h3>
-              <div class="concerts-image" />
+              <div class="concerts-image">
+                The Cranberries <span>&bull;</span> Massive Attack
+                <span>&bull;</span> Red Hot Chili Peppers
+              </div>
               <div class="concerts-container">
                 <span style={{ paddingLeft: 0 }} class="threestars-concert">
                   Cigarettes After Sex
@@ -205,7 +227,10 @@ const Timeline = () => {
             <div class="content-border">
               <h2 class="year-header">2018</h2>
               <h3 class="concerts-header">Primavera Sound</h3>
-              <div class="concerts-image" />
+              <div class="concerts-image">
+                The Cranberries <span>&bull;</span> Massive Attack
+                <span>&bull;</span> Red Hot Chili Peppers
+              </div>
               <div class="concerts-container">
                 <span style={{ paddingLeft: 0 }} class="fourstars-concert">
                   Spiritualized
@@ -271,7 +296,10 @@ const Timeline = () => {
             <div class="content-border">
               <h2 class="year-header">2018</h2>
               <h3 class="concerts-header">Rock Werchter</h3>
-              <div class="concerts-image" />
+              <div class="concerts-image">
+                The Cranberries <span>&bull;</span> Massive Attack
+                <span>&bull;</span> Red Hot Chili Peppers
+              </div>
               <div class="concerts-container">
                 <span style={{ paddingLeft: 0 }} class="fourstars-concert">
                   Gang of Youths
