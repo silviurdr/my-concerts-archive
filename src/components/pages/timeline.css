@@ -1,0 +1,557 @@
+* {
+  box-sizing: border-box;
+}
+
+.timeline {
+  background-color: #ecdbc6;
+  font-family: Courier, monospace, sans-serif;
+  position: relative;
+  margin: 0 auto;
+}
+
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 5px;
+  background-color: #616d1d;
+  top: 70px;
+  bottom: 50px;
+  left: 50%;
+  margin-left: -3px;
+  z-index: 0;
+}
+
+.timeline-top-circle {
+  padding-top: 40px;
+  width: 50%;
+  position: relative;
+}
+
+.timeline-top-circle::after {
+  content: "";
+  position: absolute;
+  width:26px;
+  height: 26px;
+  right: -13px;
+  background-color: #616d1d;
+  border: 4px solid #616d1d;
+  border-radius: 50%;
+  top: 8;
+  top: 112%;
+  z-index: 4;
+}
+
+.timeline-bottom-circle {
+  padding-bottom: 100px;
+  width: 50%;
+  position: relative;
+}
+
+.timeline-bottom-circle::after {
+  content: "";
+  position: absolute;
+  width:26px;
+  height: 26px;
+  right: -13px;
+  background-color: #616d1d;
+  border: 4px solid #616d1d;
+  border-radius: 50%;
+  top: 49%;
+  z-index: 4;
+}
+
+.timeline-container-left {
+  padding: 0px 60px 0px 20px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+.timeline-container-right {
+  padding: 10px 20px 0px 60px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+.timeline-container-left.left.romania::before {
+  content: "";
+  position: absolute;
+  width:80px;
+  height: 80px;
+  right: -40px;
+  background-color: inherit;
+  border: 4px solid #616d1d;
+  top: 25%;
+  border-radius: 5%;
+  z-index: 1;
+  background: url("../../images/romanianconcertslogo.jpg") no-repeat;
+}
+
+.timeline-container-right.right.rw2013::before {
+  content: "";
+  position: absolute;
+  width:80px;
+  height: 80px;
+  left: -40px;
+  background-color: inherit;
+  border: 4px solid #616d1d;
+  top: 10%;
+  border-radius: 5%;
+  z-index: 1;
+  background: url("../../images/rockwerchter2013logo.jpg") no-repeat;
+}
+
+.timeline-container-left.left.rw2015::before {
+  content: "";
+  position: absolute;
+  width:80px;
+  height: 80px;
+  right: -40px;
+  background-color:inherit;
+  border: 4px solid #616d1d;
+  top: -1%;
+  border-radius: 5%;
+  z-index: 1;
+  background: url("../../images/rockwerchter2015logo.jpg") no-repeat;
+}
+
+
+.timeline-container-left.left.rw2017::before {
+  content: "";
+  position: absolute;
+  width:80px;
+  height: 80px;
+  right: -40px;
+  background-color:inherit;
+  border: 4px solid #616d1d;
+  top: -1%;
+  border-radius: 5%;
+  z-index: 1;
+  background: url("../../images/rockwerchter2017logo.jpg") no-repeat;
+}
+
+.timeline-container-right.right.ps2018::before {
+  content: "";
+  position: absolute;
+  width:80px;
+  height: 80px;
+  left: -40px;
+  background-color: inherit;
+  border: 4px solid #616d1d;
+  top: 10%;
+  border-radius: 5%;
+  z-index: 1;
+  background: url("../../images/primaverasoundlogo.jpg") no-repeat;
+}
+
+.timeline-container-left.left.rw2018::before {
+  content: "";
+  position: absolute;
+  width:80px;
+  height: 80px;
+  right: -40px;
+  background-color:inherit;
+  border: 4px solid #616d1d;
+  top: -1%;
+  border-radius: 5%;
+  z-index: 1;
+  background: url("../../images/rockwerchter2018logo.jpg") no-repeat;
+}
+
+.timeline-container-right.right.nosalive::before {
+  content: "";
+  position: absolute;
+  width:80px;
+  height: 80px;
+  left: -40px;
+  background-color: inherit;
+  border: 4px solid #616d1d;
+  top: -1%;
+  border-radius: 5%;
+  z-index: 1;
+  background: url("../../images/nosalivelogo.jpg") no-repeat;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  left: 50%;
+}
+
+.right::after {
+  left: -16px;
+}
+
+.content {
+  padding: 20px 30px;
+  background-color: inherit);
+  position: relative;
+  border-radius: 6px;
+  text-align:left;
+}
+
+.content-border {
+  border: 1px solid #616d1d;
+}
+
+.year-header {
+  font-weight: 900;
+  font-size: 2em;
+  color: #f8f3ec;
+  text-align: center;
+  margin-bottom: 0.5em;
+  background-color: #616d1d;
+  padding: 4px 0px;
+}
+
+.concerts-header {
+  font-weight: 900;
+  font-size: 1.8em;
+  color: #e4563e;
+  text-align: center;
+  margin-bottom: 0.4em;
+}
+
+.concerts-image {
+  display: none;
+}
+
+.concerts-container {
+  padding: 20px;
+}
+
+.fivestars-concert {
+  font-size: 1.5em;
+  color: #39364a;
+  font-weight: 800;
+  padding: 0px 10px;
+}
+
+.fourstars-concert {
+  font-size: 1.27em;
+  color: #39364a;
+  font-weight: 800;
+  padding: 0px 10px;
+}
+
+.threestars-concert {
+  font-size: 1em;
+  color: #39364a;
+  font-weight: 800;
+  padding: 0px 10px;
+}
+
+.twostars-concert {
+  font-size: 0.75em;
+  color: #39364a;
+  font-weight: 800;
+  padding: 0px 10px;
+}
+
+.onestar-concert {
+  font-size: 0.6em;
+  color: #39364a;
+  font-weight: 800;
+  padding: 0px 10px;
+}
+
+.double-bull {
+  font-size: 1.3em;
+}
+
+
+/* MEDIA QUERIES */
+
+
+@media screen and (min-width: 1090px) and (max-width: 1360px) {
+
+  .timeline-container-left {
+    padding: 10px 50px 0px 10px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+  }
+  
+  .timeline-container-right {
+    padding: 10px 10px 0px 50px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 1089px) {
+
+  .timeline::after {
+    left: 71px;
+  }
+
+  .timeline-bottom-circle::after, .timeline-top-circle::after {
+    left: 58px;
+  }
+
+  .content {
+    padding-left: 100px;
+    padding-bottom: 50px;
+  }
+
+  .timeline-container-right, .timeline-container-left {
+    padding: 10px 20px 0px 60px;
+  }
+
+  .container-left {
+    width: 100%;
+    padding-left: 120px;
+    padding-right: 30px;
+  }
+
+  .container-right {
+    width: 100%;
+    padding-left: 120px;
+    padding-right: 30px;
+  }
+
+  .left::before  {
+    left: 17px;
+  }
+
+  .right {
+    left: 0px;
+  }
+
+
+  .timeline-container-left.left, .timeline-container-right.right {
+    width: 100%;
+  }
+
+  .timeline-container-left.left::before {
+    left: 30px;
+  }
+
+  .timeline-container-right.right::before  {
+    left: 30px !important;
+  }
+
+}
+
+@media screen and (max-width: 620px) {
+
+  .timeline::after  {
+    left: 51px;
+  }
+
+  .timeline-top-circle {
+    padding-top: 40px;
+    width: 50%;
+    position: relative;
+  }
+
+  .timeline-bottom-circle {
+    padding-bottom: 80px;
+    width: 50%;
+    position: relative;
+  }
+
+  .timeline-top-circle::after  {
+    content: "";
+    position: absolute;
+    width:20px;
+    height: 20px;
+    left: 40px;
+    background-color: #616d1d;
+    border: 4px solid #616d1d;
+    border-radius: 50%;
+    top: 127%;
+    z-index: 4;
+  }
+
+  .timeline-bottom-circle::after {
+    content: "";
+    position: absolute;
+    width:20px;
+    height: 20px;
+    left: 40px;
+    background-color: #616d1d;
+    border: 4px solid #616d1d;
+    border-radius: 50%;
+    top: 37%;
+    z-index: 4;
+  }
+
+  .timeline-container {
+    padding: 30px 40px 0px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 100%;
+  }
+
+  .content {
+    padding: 20px 20px 20px 60px;
+  }
+
+  .div.concerts-container {
+    max-width: 400px;
+    height: 100%;
+  }
+
+  .concerts-image {
+    display: block;
+    max-width: 200px;
+    height: 117px;
+    background: url("../../images/romania-concerts-sm.jpg") no-repeat;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .year-header {
+    font-weight: 900;
+    font-size: 1.7em;
+    color: #f8f3ec;
+    text-align: center;
+    margin-bottom: 0.5em;
+  }
+  
+  .concerts-header {
+    font-weight: 900;
+    font-size: 1.3em;
+    color: #e4563e;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+
+  .concerts-container {
+    display: none;
+  }
+
+  .timeline-container.left, .timeline-container.right {
+    padding: 20px!important;
+  }
+
+  .timeline-container.left.romania > .content {
+    margin-top: 60px;
+  }
+
+  .timeline-container-left.timeline-container.left::before  {
+    content: "";
+    position: absolute;
+    width: 58px !important; 
+    height: 58px !important;
+    left: 23px;
+    background-color: inherit;
+    border: 4px solid #616d1d;
+    top: 14%;
+    z-index: 1;
+    background: url("../../images/nosalivelogo-mob.jpg") no-repeat;
+  }
+
+  .timeline-container-left.timeline-container-left.left.romania::before  {
+    content: "";
+    position: absolute;
+    width: 58px !important; 
+    height: 58px !important;
+    left: 23px;
+    background-color: inherit;
+    border: 4px solid #616d1d;
+    top: 29%;
+    z-index: 1;
+    background: url("../../images/romanianconcertslogo-mob.jpg") no-repeat;
+  }
+
+  .timeline-container-left.timeline-container-left.left.rw2015::before  {
+    content: "";
+    position: absolute;
+    width: 58px !important; 
+    height: 58px !important;
+    left: 23px;
+    background-color: inherit;
+    border: 4px solid #616d1d;
+    top: 29%;
+    z-index: 1;
+    background: url("../../images/nosalivelogo-mob.jpg") no-repeat;
+  }
+
+  .timeline-container-left.timeline-container-left.left.rw2017::before  {
+    content: "";
+    position: absolute;
+    width: 58px !important; 
+    height: 58px !important;
+    left: 23px;
+    background-color: inherit;
+    border: 4px solid #616d1d;
+    top: 29%;
+    z-index: 1;
+    background: url("../../images/rockwerchter2017logo-mob.jpg") no-repeat;
+  }
+
+  .timeline-container-left.timeline-container-left.left.rw2018::before  {
+    content: "";
+    position: absolute;
+    width: 58px !important; 
+    height: 58px !important;
+    left: 23px;
+    background-color: inherit;
+    border: 4px solid #616d1d;
+    top: 29%;
+    z-index: 1;
+    background: url("../../images/rockwerchter2018logo-mob.jpg") no-repeat;
+  }
+
+  .timeline-container-right.timeline-container-right.right::before {
+    content: "";
+    position: absolute;
+    width:58px;
+    height: 58px;
+    left: 23px !important;
+    background-color: inherit;
+    border: 4px solid green;
+    top: 14%;
+    z-index: 1;
+    background: url("../../images/primaverasoundlogo-mob.jpg") no-repeat;
+  }
+
+  .timeline-container-right.timeline-container-right.right.nosalive::before {
+    content: "";
+    position: absolute;
+    width:58px;
+    height: 58px;
+    left: 23px !important;
+    background-color: inherit;
+    border: 4px solid green;
+    top: 14%;
+    z-index: 1;
+    background: url("../../images/nosalivelogo-mob.jpg") no-repeat;
+  }
+
+  .timeline-container-right.timeline-container-right.right.rw2013::before {
+    content: "";
+    position: absolute;
+    width:58px;
+    height: 58px;
+    left: 23px !important;
+    background-color: inherit;
+    border: 4px solid green;
+    top: 14%;
+    z-index: 1;
+    background: url("../../images/rockwerchter2013logo-mob.jpg") no-repeat;
+  }
+
+  .timeline-container-left.timeline-container-left.left.rw2015::before  {
+    content: "";
+    position: absolute;
+    width: 58px !important; 
+    height: 58px !important;
+    left: 23px;
+    background-color: inherit;
+    border: 4px solid #616d1d;
+    top: 29%;
+    z-index: 1;
+    background: url("../../images/rockwerchter2015logo-mob.jpg") no-repeat;
+  }
+
+  
+
+}

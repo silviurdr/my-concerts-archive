@@ -3,9 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.17",
+    "@fortawesome/free-brands-svg-icons": "^5.8.1",
+    "@fortawesome/free-solid-svg-icons": "^5.8.1",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "babel-preset-react": "^6.24.1",
+    "babelify": "^10.0.0",
+    "bootstrap": "^4.3.1",
+    "font-awesome": "^4.7.0",
+    "i": "^0.3.6",
+    "lodash": "^4.17.10",
+    "npm": "^6.9.0",
     "react": "^16.8.6",
+    "react-burger-menu": "^2.6.10",
     "react-dom": "^16.8.6",
-    "react-scripts": "2.1.8"
+    "react-full-screen": "^0.2.4",
+    "react-responsive-picture": "^3.1.1",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8",
+    "save": "^2.3.3",
+    "uuid": "^3.3.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,5 +38,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "case-sensitive-paths-webpack-plugin": "^2.2.0"
+  }
 }

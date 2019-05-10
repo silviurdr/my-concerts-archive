@@ -1,0 +1,232 @@
+.header {
+  background-color: #4f4a66;
+  text-align: center;
+  box-shadow: inset 0px -10px 8px -7px #39364a;
+  box-sizing: unset;
+}
+
+.header-image {
+  background: url("../images/header-image-concerts10.jpg") no-repeat;
+  padding: 0px;
+  width: 100%;
+  height: 185px;
+  background-position: center;
+}
+
+.burger-list {
+  outline: 0 !important;
+}
+
+.bm-item-list {
+  padding: 0px !important;
+}
+
+a.burger-item:active,
+a.burger:visited {
+  color: #c6c4d4 !important;
+  background-color: #39364a !important;
+  text-decoration: none !important;
+  font-weight: 700 !important;
+}
+
+.burger-item-list {
+  background-color: #39364a !important;
+  display: block !important;
+  color: #a6a6a6 !important;
+  text-transform: capitalize !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+  padding: 0.75rem 1.25rem;
+  border-bottom: 1px solid #444059;
+}
+
+.burger-item-list-selected {
+  position: relative;
+  display: block !important;
+  padding: 0.75rem 1.25rem;
+  background-color: #39364a !important;
+  color: #9ddc56 !important;
+  text-transform: capitalize !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+  padding-bottom: 10px !important;
+  border-bottom: 1px solid #444059;
+}
+
+.bm-menu-wrap {
+  width: 100% !important;
+  height: 70% !important;
+  overflow: hidden;
+}
+
+.bm-menu {
+  padding: 2.5em 0.5em !important;
+  font-size: 1.05em !important;
+}
+
+.bm-item {
+  border: 0px !important;
+}
+
+a.menu-item {
+  margin-bottom: 1em;
+}
+
+a.menu-item:active,
+a.menu-item:visited {
+  color: #ecdbc6 !important;
+  background-color: #39364a !important;
+  text-decoration: none !important;
+  font-weight: 700 !important;
+}
+
+.vw-top-bar {
+  background-color: #f2e7d9;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 0px !important;
+}
+
+.col-sm-12 {
+}
+
+.vw-top-bar-right,
+.vw-top-bar-left {
+  display: inline-block;
+}
+
+.vw-top-bar-left {
+  line-height: 48px;
+}
+
+.vw-top-bar-right {
+  float: right;
+  line-height: 48px;
+}
+
+.utility-link {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+a.utility-linka {
+  cursor: pointer;
+  text-decoration: none !important;
+  background-color: transparent !important;
+  margin-right: 10px;
+}
+
+a.utility-linka:hover,
+a.utility-linka:active {
+  color: #00802b !important;
+}
+
+.social-link,
+.social-link-facebook {
+  color: white !important;
+  background-color: #39364a;
+  padding: 7px 7px;
+  margin-right: 0.4em;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.25s ease-out;
+}
+
+.social-link-facebook {
+  padding: 7px 10px;
+}
+
+.social-link:hover,
+.social-link:active,
+.social-link-facebook:hover,
+.social-link-facebook:active {
+  background-color: #5f9121 !important;
+  color: white !important;
+}
+
+@media screen and (max-width: 900px) and (min-width: 500px) {
+  .header-image {
+    background: url("../images/header-title2.jpg") no-repeat;
+    padding: 0px;
+    width: 100%;
+    height: 165px;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header-image {
+    background: url("../images/header-title-mob78.jpg") no-repeat;
+    padding: 0px;
+    width: 100%;
+    height: 100px;
+    background-position: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media screen and (max-width: 935px) {
+  .vw-top-bar-left,
+  .vw-top-bar-right {
+    display: block !important;
+    text-align: center;
+    float: none;
+  }
+
+  .utility-nav {
+    text-align: center;
+    float: none;
+  }
+
+  .row2 {
+    text-align: center;
+    margin-left: -15px;
+  }
+
+  .col-sm-12 {
+    min-height: 1px;
+    text-align: center;
+    float: none;
+    margin-right: -15px;
+  }
+
+  .ul {
+    margin: 0px !important;
+    padding-inline-start: 0px !important;
+    margin-block-start: 0px !important;
+  }
+
+  .vw-top-bar {
+    height: auto;
+  }
+
+  .vw-top-bar-left,
+  .vw-top-bar-right {
+    line-height: 42px;
+  }
+}
+
+@media screen and (min-width: 936px) {
+  .burger-menu {
+    display: none;
+    visibility: hidden;
+  }
+}
