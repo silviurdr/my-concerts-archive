@@ -150,6 +150,8 @@ a.utility-linka:active {
   color: white !important;
 }
 
+/* MEDIA SCREENS */
+
 @media screen and (max-width: 900px) and (min-width: 500px) {
   .header-image {
     background: url("../images/header-title2.jpg") no-repeat;
