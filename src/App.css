@@ -21,7 +21,6 @@
 .card-deck .card {
   display: block;
   flex-basis: 33.3%; /* change this value for each breakpoint*/
-  margin: 0 auto;
 }
 
 .card {
