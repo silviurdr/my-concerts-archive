@@ -1222,6 +1222,78 @@ const concerts = [
   },
   {
     _id: uuid.v4(),
+    title: "Father John Misty",
+    genre: { _id: "4e21ca3eeb7f6fbccd471818", name: "Indie" },
+    year: 2018,
+    rating: (
+      <React.Fragment>
+        <FontAwesomeIcon icon={faStar} />
+        <FontAwesomeIcon icon={faStar} />
+        <FontAwesomeIcon icon={faStar} />
+        <FontAwesomeIcon icon={faStar} />
+      </React.Fragment>
+    ),
+    stars: 4,
+    description:
+      "Joshua Michael Tillman also known as Father John Misty and previously J. Tillman, is an American singer-songwriter, musician, and record producer.",
+    src: fatherJohnMisty
+  },
+  {
+    _id: uuid.v4(),
+    title: "Warpaint",
+    genre: { _id: "4e21ca3eeb7f6fbccd471818", name: "Indie" },
+    year: 2018,
+    rating: (
+      <React.Fragment>
+        <FontAwesomeIcon icon={faStar} />
+        <FontAwesomeIcon icon={faStar} />
+        <FontAwesomeIcon icon={faStar} />
+        <FontAwesomeIcon icon={faStar} />
+      </React.Fragment>
+    ),
+    stars: 4,
+    description:
+      "Warpaint is an American indie rock band from Los Angeles, California, formed in 2004. The current lineup comprises founders Emily Koka...",
+    src: warpaint3
+  },
+  {
+    _id: uuid.v4(),
+    title: "Arctic Monkeys",
+    genre: { _id: "5b21ca3eeb7f6fbccd471818", name: "Rock" },
+    year: 2018,
+    rating: (
+      <React.Fragment>
+        <FontAwesomeIcon icon={faStar} />
+        <FontAwesomeIcon icon={faStar} />
+        <FontAwesomeIcon icon={faStar} />
+        <FontAwesomeIcon icon={faStar} />
+      </React.Fragment>
+    ),
+    stars: 4,
+    description:
+      "Arctic Monkeys are an English rock band formed in Sheffield in 2002. The band consists of Alex Turner, Matt Helders, Jamie Cook and Nick O'Malley ",
+    src: arcticMonkeys
+  },
+  {
+    _id: uuid.v4(),
+    title: "Lorde",
+    genre: { _id: "7x21ca3eeb7f6fbccd471818", name: "Pop" },
+    year: 2018,
+    rating: (
+      <React.Fragment>
+        <FontAwesomeIcon icon={faStar} />
+        <FontAwesomeIcon icon={faStar} />
+        <FontAwesomeIcon icon={faStar} />
+        <FontAwesomeIcon icon={faStarHalf} />
+      </React.Fragment>
+    ),
+    stars: 3.5,
+    description:
+      "Ella Marija Lani Yelich-O'Connor (born 7 November 1996), known professionally as Lorde (pronounced 'lord'), is a New Zealand singer, songwriter and record producer.",
+    src: lorde2
+  },
+  {
+    _id: uuid.v4(),
     title: "Spiritualized",
     genre: { _id: "5b21ca3eeb7f6fbccd471818", name: "Rock" },
     year: 2018,
@@ -1291,24 +1363,6 @@ const concerts = [
     description:
       "Ezra Furman is an American musician and songwriter. Furman currently performs solo and tours with his band The Visions.",
     src: ezraFurman
-  },
-  {
-    _id: uuid.v4(),
-    title: "Warpaint",
-    genre: { _id: "4e21ca3eeb7f6fbccd471818", name: "Indie" },
-    year: 2018,
-    rating: (
-      <React.Fragment>
-        <FontAwesomeIcon icon={faStar} />
-        <FontAwesomeIcon icon={faStar} />
-        <FontAwesomeIcon icon={faStar} />
-        <FontAwesomeIcon icon={faStar} />
-      </React.Fragment>
-    ),
-    stars: 4,
-    description:
-      "Warpaint is an American indie rock band from Los Angeles, California, formed in 2004. The current lineup comprises founders Emily Koka...",
-    src: warpaint3
   },
   {
     _id: uuid.v4(),
@@ -1435,24 +1489,6 @@ const concerts = [
   },
   {
     _id: uuid.v4(),
-    title: "Father John Misty",
-    genre: { _id: "4e21ca3eeb7f6fbccd471818", name: "Indie" },
-    year: 2018,
-    rating: (
-      <React.Fragment>
-        <FontAwesomeIcon icon={faStar} />
-        <FontAwesomeIcon icon={faStar} />
-        <FontAwesomeIcon icon={faStar} />
-        <FontAwesomeIcon icon={faStar} />
-      </React.Fragment>
-    ),
-    stars: 4,
-    description:
-      "Joshua Michael Tillman also known as Father John Misty and previously J. Tillman, is an American singer-songwriter, musician, and record producer.",
-    src: fatherJohnMisty
-  },
-  {
-    _id: uuid.v4(),
     title: "The National",
     genre: { _id: "4e21ca3eeb7f6fbccd471818", name: "Indie" },
     year: 2018,
@@ -1572,42 +1608,6 @@ const concerts = [
     description:
       "Slowdive are an English rock band that formed in Reading, Berkshire in 1989. The band consists of Rachel Goswell, Simon Scott, Neil Halstead...",
     src: slowdive2
-  },
-  {
-    _id: uuid.v4(),
-    title: "Lorde",
-    genre: { _id: "7x21ca3eeb7f6fbccd471818", name: "Pop" },
-    year: 2018,
-    rating: (
-      <React.Fragment>
-        <FontAwesomeIcon icon={faStar} />
-        <FontAwesomeIcon icon={faStar} />
-        <FontAwesomeIcon icon={faStar} />
-        <FontAwesomeIcon icon={faStarHalf} />
-      </React.Fragment>
-    ),
-    stars: 3.5,
-    description:
-      "Ella Marija Lani Yelich-O'Connor (born 7 November 1996), known professionally as Lorde (pronounced 'lord'), is a New Zealand singer, songwriter and record producer.",
-    src: lorde2
-  },
-  {
-    _id: uuid.v4(),
-    title: "Arctic Monkeys",
-    genre: { _id: "5b21ca3eeb7f6fbccd471818", name: "Rock" },
-    year: 2018,
-    rating: (
-      <React.Fragment>
-        <FontAwesomeIcon icon={faStar} />
-        <FontAwesomeIcon icon={faStar} />
-        <FontAwesomeIcon icon={faStar} />
-        <FontAwesomeIcon icon={faStar} />
-      </React.Fragment>
-    ),
-    stars: 4,
-    description:
-      "Arctic Monkeys are an English rock band formed in Sheffield in 2002. The band consists of Alex Turner, Matt Helders, Jamie Cook and Nick O'Malley ",
-    src: arcticMonkeys
   },
   {
     _id: uuid.v4(),
