@@ -20,8 +20,10 @@ const Timeline = () => {
               <h2 class="year-header">2010 - 2012</h2>
               <h3 class="concerts-header">Romania</h3>
               <div class="concerts-image">
-                The Cranberries <span>&bull;</span> Massive Attack
-                <span>&bull;</span> Red Hot Chili Peppers
+                The Cranberries <span>&bull;</span>
+                <span> Massive Attack </span>
+                <span>&bull;</span>
+                <span> Red Hot Chili Peppers </span>
               </div>
               <div class="concerts-container">
                 <p>
@@ -43,15 +45,28 @@ const Timeline = () => {
               <h2 class="year-header">2013</h2>
               <h3 class="concerts-header">Rock Werchter</h3>
               <div class="concerts-image">
-                Balthazar<span>&bull;</span> Biffy Clyro
-                <span>&bull;</span> The National<span>&bull;</span> Sigur Ros
-                <span>&bull;</span> Netsky<span>&bull;</span> The Script
-                <span>&bull;</span> John Legend<span>&bull;</span> Kings of Leon
-                <span>&bull;</span> Blur<span>&bull;</span> Tame Impala
-                <span>&bull;</span> Nick Cave<span>&bull;</span> Rammstein
-                <span>&bull;</span> Band of Horses<span>&bull;</span> Of
-                Monsters and Men
-                <span>&bull;</span> Depeche Mode<span>&bull;</span> Editors
+                <span> Balthazar </span>
+                <span>&bull;</span>
+                <span> Biffy Clyro </span>
+                <span>&bull;</span>
+                <span> The National </span>
+                <span>&bull;</span>
+                <span> Sigur Ros </span>
+                <span>&bull;</span>
+                <span> Netsky </span>
+                <span>&bull;</span>
+                <span> The Script</span>
+                <span>&bull;</span> <span> John Legend </span>
+                <span>&bull;</span> <span> Kings of Leon </span>
+                <span>&bull;</span> <span> Blur </span> <span>&bull;</span>
+                <span> Tame Impala </span>
+                <span>&bull;</span> <span> Nick Cave </span> <span>&bull;</span>
+                <span> Rammstein </span>
+                <span>&bull;</span> <span> Tame Impala </span>
+                <span>&bull;</span> <span> Of Monsters and Men </span>
+                <span>&bull;</span> <span> Depeche Mode </span>
+                <span>&bull;</span>
+                <span> Editors </span>
               </div>
               <div class="concerts-container">
                 <span style={{ paddingLeft: 0 }} class="threestars-concert">
