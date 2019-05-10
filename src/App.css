@@ -339,5 +339,6 @@ a.list-group-item:focus {
     display: block;
     flex-basis: 26% !important;
     margin-bottom: 3em !important;
+    margin: 0 !important;
   }
 }
