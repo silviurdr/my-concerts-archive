@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/my-concerts-archive/static/media/radiohead2.1918ac7e.jpg"
   },
   {
-    "revision": "b8e7f07154ec1ed42f55",
-    "url": "/my-concerts-archive/static/css/main.aa21fefa.chunk.css"
+    "revision": "5f33a3ab80ab511f33d6",
+    "url": "/my-concerts-archive/static/css/main.0b3bcf37.chunk.css"
   },
   {
     "revision": "f4d4c3a407cd9fd0fb5f",
@@ -232,7 +232,7 @@ self.__precacheManifest = [
     "url": "/my-concerts-archive/static/media/jamesBlake.dfd2706e.jpg"
   },
   {
-    "revision": "b8e7f07154ec1ed42f55",
+    "revision": "5f33a3ab80ab511f33d6",
     "url": "/my-concerts-archive/static/js/main.945449aa.chunk.js"
   },
   {
@@ -428,12 +428,12 @@ self.__precacheManifest = [
     "url": "/my-concerts-archive/static/media/arcticMonkeys2.21746c93.jpg"
   },
   {
-    "revision": "6c845ac452b7d2b34f7efbabb4a64910",
-    "url": "/my-concerts-archive/static/media/header-title2.6c845ac4.jpg"
-  },
-  {
     "revision": "b268a847584d64fc3c9a727b4a33ee10",
     "url": "/my-concerts-archive/static/media/header-title-mob78.b268a847.jpg"
+  },
+  {
+    "revision": "6c845ac452b7d2b34f7efbabb4a64910",
+    "url": "/my-concerts-archive/static/media/header-title2.6c845ac4.jpg"
   },
   {
     "revision": "1f9fb26df254fcab920ccf4567b4cedf",
@@ -460,7 +460,7 @@ self.__precacheManifest = [
     "url": "/my-concerts-archive/static/css/2.8a54f981.chunk.css"
   },
   {
-    "revision": "d4e1bbd1a8a16bef6e0210e01153227b",
+    "revision": "2ee212e32a27402838e185925eac3aa5",
     "url": "/my-concerts-archive/index.html"
   }
 ];
