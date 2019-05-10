@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/my-concerts-archive/precache-manifest.084fdf20ff8f258550545fadcb5f2fc2.js"
+  "/my-concerts-archive/precache-manifest.79060336854018f4542187b695335d7b.js"
 );
 
 workbox.clientsClaim();
