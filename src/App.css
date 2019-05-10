@@ -141,6 +141,7 @@ small.year:hover {
   color: black !important;
   background-color: #e6d0b3 !important;
   cursor: pointer;
+  border-color: #dfc39f !important;
 }
 
 .page-link:hover {
