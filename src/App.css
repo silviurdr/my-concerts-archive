@@ -43,6 +43,10 @@ h5.card-title {
   max-height: 167px !important;
 }
 
+.card-footer {
+  background-color: white !important;
+}
+
 .year {
   font-weight: 800;
   font-size: 0.9em;
