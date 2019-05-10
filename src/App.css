@@ -39,6 +39,10 @@ h5.card-title {
   font-size: 15px !important;
 }
 
+.card-footer {
+  background-color: white !important;
+}
+
 .card-img-top {
   max-height: 167px !important;
 }
