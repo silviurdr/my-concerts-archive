@@ -11,19 +11,16 @@ const Timeline = () => {
 
       <div class="timeline">
         <div class="timeline-top-circle" />
-        <div
-          style={{ paddingTop: "120px" }}
-          class="timeline-container-left left romania"
-        >
+        <div class="timeline-container-left left romania">
           <div class="content">
             <div class="content-border">
               <h2 class="year-header">2010 - 2012</h2>
               <h3 class="concerts-header">Romania</h3>
               <div class="concerts-image">
-                The Cranberries <span>&bull;</span>
-                <span> Massive Attack </span>
-                <span>&bull;</span>
-                <span> Red Hot Chili Peppers </span>
+                The Cranberries<span class="bull">&bull;</span>
+                Massive Attack
+                <span class="bull">&bull;</span>
+                Red Hot Chili Peppers
               </div>
               <div class="concerts-container">
                 <p>
@@ -59,10 +56,10 @@ const Timeline = () => {
                 <span class="bull">&bull;</span>John Legend
                 <span class="bull">&bull;</span>Kings of Leon
                 <span class="bull">&bull;</span>Blur
-                <span>&bull;</span>
-                <span> Tame Impala </span>
+                <span class="bull">&bull;</span>
+                Tame Impala
                 <span class="bull">&bull;</span>Nick Cave &#38; the Bad Seeds
-                <span>&bull;</span>
+                <span class="bull">&bull;</span>
                 Rammstein
                 <span class="bull">&bull;</span>Tame Impala
                 <span class="bull">&bull;</span>
@@ -131,7 +128,7 @@ const Timeline = () => {
                 <span class="bull">&bull;</span>alt-J
                 <span class="bull">&bull;</span>Mumford &#38; Sons
                 <span class="bull">&bull;</span>Noel Gallagher's High Flying
-                <span>&bull;</span>
+                <span class="bull">&bull;</span>
                 <span> Lenny Kravitz</span>
                 <span class="bull">&bull;</span>Kasabian
                 <span class="bull">&bull;</span>Muse
@@ -188,7 +185,7 @@ const Timeline = () => {
                 <span class="bull">&bull;</span>Tame Impala
                 <span class="bull">&bull;</span>Radiohead
                 <span class="bull">&bull;</span>Band of Horses
-                <span>&bull;</span>
+                <span class="bull">&bull;</span>
                 <span>Arcade Fire</span>
                 <span class="bull">&bull;</span>M83
               </div>
@@ -240,10 +237,10 @@ const Timeline = () => {
                 <span class="bull">&bull;</span>Kings of Leon
                 <span class="bull">&bull;</span>Slowdive
                 <span class="bull">&bull;</span>Maggie Rogers
-                <span>&bull;</span>
+                <span class="bull">&bull;</span>
                 <span>Future Islands</span>
                 <span class="bull">&bull;</span>James Blake
-                <span>&bull;</span>
+                <span class="bull">&bull;</span>
                 Radiohead
                 <span class="bull">&bull;</span>Jimmy Eat World
                 <span class="bull">&bull;</span>
@@ -322,10 +319,10 @@ const Timeline = () => {
                 <span class="bull">&bull;</span>Nick Cave &#38; the Bad Seeds
                 <span class="bull">&bull;</span>Chvrches
                 <span class="bull">&bull;</span>Cesare Basile
-                <span>&bull;</span>
+                <span class="bull">&bull;</span>
                 <span>John Maus</span>
                 <span class="bull">&bull;</span>Father John Misty
-                <span>&bull;</span>
+                <span class="bull">&bull;</span>
                 The National
                 <span class="bull">&bull;</span>Charlotte Gainsbourg
                 <span class="bull">&bull;</span>
