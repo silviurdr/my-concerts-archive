@@ -21,7 +21,7 @@
 .card-deck .card {
   display: block;
   flex-basis: 33.3%; /* change this value for each breakpoint*/
-  margin: 0 !important;
+  margin: 0 auto;
 }
 
 .card {
@@ -37,10 +37,6 @@ h5.card-title {
 
 .card-text {
   font-size: 15px !important;
-}
-
-.card-footer {
-  background-color: white !important;
 }
 
 .card-img-top {
@@ -339,6 +335,5 @@ a.list-group-item:focus {
     display: block;
     flex-basis: 26% !important;
     margin-bottom: 3em !important;
-    margin: 0 !important;
   }
 }
