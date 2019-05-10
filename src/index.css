@@ -17,10 +17,6 @@ code {
     monospace;
 }
 
-.card-footer {
-  background-color: #a4cabc;
-}
-
 @media only screen and (max-width: 450px) {
   .col-2 {
     display: none !important;
