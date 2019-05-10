@@ -35,7 +35,10 @@ class Header extends Component {
                         </a>
                       </li>
                       <li className="utility-link">
-                        <a className="utility-linka" href="/timeline">
+                        <a
+                          className="utility-linka"
+                          href="https://silviurdr.github.io/my-concerts-archive/#/timeline"
+                        >
                           Timeline
                         </a>
                       </li>
