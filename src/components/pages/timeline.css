@@ -258,6 +258,11 @@
   padding: 0px 10px;
 }
 
+.bull {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
 .double-bull {
   font-size: 1.3em;
 }
@@ -322,7 +327,6 @@
   .right {
     left: 0px;
   }
-
 
   .timeline-container-left.left, .timeline-container-right.right {
     width: 100%;

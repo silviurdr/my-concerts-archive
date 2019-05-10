@@ -45,28 +45,31 @@ const Timeline = () => {
               <h2 class="year-header">2013</h2>
               <h3 class="concerts-header">Rock Werchter</h3>
               <div class="concerts-image">
-                <span> Balthazar </span>
+                Balthazar
+                <span class="bull">&bull;</span>
+                Biffy Clyro
+                <span class="bull">&bull;</span>
+                The National
+                <span class="bull">&bull;</span>
+                Sigur Ros
+                <span class="bull">&bull;</span>
+                Netsky
+                <span class="bull">&bull;</span>
+                The Script
+                <span class="bull">&bull;</span>John Legend
+                <span class="bull">&bull;</span>Kings of Leon
+                <span class="bull">&bull;</span>Blur
                 <span>&bull;</span>
-                <span> Biffy Clyro </span>
-                <span>&bull;</span>
-                <span> The National </span>
-                <span>&bull;</span>
-                <span> Sigur Ros </span>
-                <span>&bull;</span>
-                <span> Netsky </span>
-                <span>&bull;</span>
-                <span> The Script</span>
-                <span>&bull;</span> <span> John Legend </span>
-                <span>&bull;</span> <span> Kings of Leon </span>
-                <span>&bull;</span> <span> Blur </span> <span>&bull;</span>
                 <span> Tame Impala </span>
-                <span>&bull;</span> <span> Nick Cave </span> <span>&bull;</span>
-                <span> Rammstein </span>
-                <span>&bull;</span> <span> Tame Impala </span>
-                <span>&bull;</span> <span> Of Monsters and Men </span>
-                <span>&bull;</span> <span> Depeche Mode </span>
+                <span class="bull">&bull;</span>Nick Cave &#38; the Bad Seeds
                 <span>&bull;</span>
-                <span> Editors </span>
+                Rammstein
+                <span class="bull">&bull;</span>Tame Impala
+                <span class="bull">&bull;</span>
+                Of Monsters and Men
+                <span class="bull">&bull;</span>Depeche Mode
+                <span class="bull">&bull;</span>
+                Editors
               </div>
               <div class="concerts-container">
                 <span style={{ paddingLeft: 0 }} class="threestars-concert">
@@ -91,7 +94,9 @@ const Timeline = () => {
                 <span class="double-bull">&bull;</span>
                 <span class="threestars-concert">Tame Impala</span>
                 <span class="double-bull">&bull;</span>
-                <span class="threestars-concert">Nick Cave</span>
+                <span class="threestars-concert">
+                  Nick Cave &#38; the Bad Seeds
+                </span>
                 <span class="double-bull">&bull;</span>
                 <span class="fourstars-concert">Rammstein</span>
                 <span class="double-bull">&bull;</span>
@@ -112,8 +117,24 @@ const Timeline = () => {
               <h2 class="year-header">2015</h2>
               <h3 class="concerts-header">Rock Werchter</h3>
               <div class="concerts-image">
-                The Cranberries <span>&bull;</span> Massive Attack
-                <span>&bull;</span> Red Hot Chili Peppers
+                Chet Faker
+                <span class="bull">&bull;</span>
+                Rise Against
+                <span class="bull">&bull;</span>
+                Florence and the Machine
+                <span class="bull">&bull;</span>
+                The Chemical Brothers
+                <span class="bull">&bull;</span>
+                Of Monsters and Men
+                <span class="bull">&bull;</span>
+                Death Cab for Cutie
+                <span class="bull">&bull;</span>alt-J
+                <span class="bull">&bull;</span>Mumford &#38; Sons
+                <span class="bull">&bull;</span>Noel Gallagher's High Flying
+                <span>&bull;</span>
+                <span> Lenny Kravitz</span>
+                <span class="bull">&bull;</span>Kasabian
+                <span class="bull">&bull;</span>Muse
               </div>
               <div class="concerts-container">
                 <span style={{ paddingLeft: 0 }} class="threestars-concert">
@@ -153,8 +174,23 @@ const Timeline = () => {
               <h2 class="year-header">2016</h2>
               <h3 class="concerts-header">Nos Alive</h3>
               <div class="concerts-image">
-                The Cranberries <span>&bull;</span> Massive Attack
-                <span>&bull;</span> Red Hot Chili Peppers
+                The 1975
+                <span class="bull">&bull;</span>
+                Biffy Clyro
+                <span class="bull">&bull;</span>
+                Robert Plant and the Sensational Shape Shifters
+                <span class="bull">&bull;</span>
+                Pixies
+                <span class="bull">&bull;</span>
+                The Chemical Brothers
+                <span class="bull">&bull;</span>
+                Foals
+                <span class="bull">&bull;</span>Tame Impala
+                <span class="bull">&bull;</span>Radiohead
+                <span class="bull">&bull;</span>Band of Horses
+                <span>&bull;</span>
+                <span>Arcade Fire</span>
+                <span class="bull">&bull;</span>M83
               </div>
               <div class="concerts-container">
                 <span style={{ paddingLeft: 0 }} class="onestar-concert">
@@ -190,8 +226,37 @@ const Timeline = () => {
               <h2 class="year-header">2017</h2>
               <h3 class="concerts-header">Rock Werchter</h3>
               <div class="concerts-image">
-                The Cranberries <span>&bull;</span> Massive Attack
-                <span>&bull;</span> Red Hot Chili Peppers
+                Cigarettes After Sex
+                <span class="bull">&bull;</span>
+                Mark Lanegan Band
+                <span class="bull">&bull;</span>
+                Agnes Obel
+                <span class="bull">&bull;</span>
+                Imagine Dragons
+                <span class="bull">&bull;</span>
+                Lorde
+                <span class="bull">&bull;</span>
+                Arcade Fire
+                <span class="bull">&bull;</span>Kings of Leon
+                <span class="bull">&bull;</span>Slowdive
+                <span class="bull">&bull;</span>Maggie Rogers
+                <span>&bull;</span>
+                <span>Future Islands</span>
+                <span class="bull">&bull;</span>James Blake
+                <span>&bull;</span>
+                Radiohead
+                <span class="bull">&bull;</span>Jimmy Eat World
+                <span class="bull">&bull;</span>
+                Blink-182
+                <span class="bull">&bull;</span>System of a Down
+                <span class="bull">&bull;</span>
+                Cage the Elephant
+                <span class="bull">&bull;</span>
+                The Kills
+                <span class="bull">&bull;</span>
+                Warpaint
+                <span class="bull">&bull;</span>
+                alt-J
               </div>
               <div class="concerts-container">
                 <span style={{ paddingLeft: 0 }} class="threestars-concert">
@@ -243,8 +308,45 @@ const Timeline = () => {
               <h2 class="year-header">2018</h2>
               <h3 class="concerts-header">Primavera Sound</h3>
               <div class="concerts-image">
-                The Cranberries <span>&bull;</span> Massive Attack
-                <span>&bull;</span> Red Hot Chili Peppers
+                Spiritualized
+                <span class="bull">&bull;</span>
+                Belle &#38; Sebastian
+                <span class="bull">&bull;</span>
+                O'o
+                <span class="bull">&bull;</span>
+                Ezra Furman
+                <span class="bull">&bull;</span>
+                The War on Drugs
+                <span class="bull">&bull;</span>
+                Ana von Hausswolff
+                <span class="bull">&bull;</span>Nick Cave &#38; the Bad Seeds
+                <span class="bull">&bull;</span>Chvrches
+                <span class="bull">&bull;</span>Cesare Basile
+                <span>&bull;</span>
+                <span>John Maus</span>
+                <span class="bull">&bull;</span>Father John Misty
+                <span>&bull;</span>
+                The National
+                <span class="bull">&bull;</span>Charlotte Gainsbourg
+                <span class="bull">&bull;</span>
+                Cigarettes After Sex
+                <span class="bull">&bull;</span>Confidence Man
+                <span class="bull">&bull;</span>
+                Lift to Experience
+                <span class="bull">&bull;</span>
+                Ariel Pink
+                <span class="bull">&bull;</span>
+                Slowdive
+                <span class="bull">&bull;</span>
+                <span> Lorde </span>
+                <span class="bull">&bull;</span>
+                Arctic Monkeys
+                <span class="bull">&bull;</span>
+                Deerhunter
+                <span class="bull">&bull;</span>
+                Beach House
+                <span class="bull">&bull;</span>
+                Public Service Broadcasting
               </div>
               <div class="concerts-container">
                 <span style={{ paddingLeft: 0 }} class="fourstars-concert">
@@ -312,13 +414,41 @@ const Timeline = () => {
               <h2 class="year-header">2018</h2>
               <h3 class="concerts-header">Rock Werchter</h3>
               <div class="concerts-image">
-                The Cranberries <span>&bull;</span> Massive Attack
-                <span>&bull;</span> Red Hot Chili Peppers
+                Gang of Youths
+                <span class="bull">&bull;</span>
+                The Vaccines
+                <span class="bull">&bull;</span>
+                Vince Staples
+                <span class="bull">&bull;</span>
+                Queens of the Stone Age
+                <span class="bull">&bull;</span>
+                Gorillaz
+                <span class="bull">&bull;</span>
+                Angus &#38; Julia Stone
+                <span class="bull">&bull;</span>
+                Ben Howard
+                <span class="bull">&bull;</span>
+                London Grammar
+                <span class="bull">&bull;</span>
+                The Killers
+                <span class="bull">&bull;</span>
+                <span> Stereophonics </span>
+                <span class="bull">&bull;</span>
+                Idles
+                <span class="bull">&bull;</span>
+                Eels
+                <span class="bull">&bull;</span>
+                Noel Gallagher's High Flying Birds
+                <span class="bull">&bull;</span>
+                <span class="bull">&bull;</span>
+                Nick Cave &#38; The Bad Seeds<span class="bull">&bull;</span>
+                Arctic Monkeys
               </div>
               <div class="concerts-container">
                 <span style={{ paddingLeft: 0 }} class="fourstars-concert">
                   Gang of Youths
                 </span>
+                <span class="double-bull">&bull;</span>
                 <span class="threestars-concert">The Vaccines</span>
                 <span class="double-bull">&bull;</span>
                 <span class="fourstars-concert">Vince Staples</span>
