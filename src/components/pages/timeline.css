@@ -84,7 +84,7 @@
  ******************************/
 
 .timeline-container-left.romania {
-  margin-top: 120px;
+  margin-top: 90px;
 }
 
 .timeline-container-left.romania::before {
@@ -286,8 +286,7 @@
   .timeline-container-right {
     padding: 10px 10px 0px 50px;
   }
-
-
+  
 }
 
 @media screen and (max-width: 1089px) {
@@ -296,7 +295,7 @@
   }
 
   .timeline-container-left.romania {
-    margin-top: 90px;
+    margin-top: 60px;
   }
 
   .timeline-container-left.romania::before {
@@ -363,7 +362,7 @@
 @media screen and (min-width: 621px) and (max-width: 926px) {
 
   .timeline-container-left.romania {
-    margin-top: 90px;
+    margin-top: 60px;
   }
 
   .timeline-container-left.romania::before {
@@ -397,7 +396,7 @@
   }
 
   .timeline-container-left.romania {
-    margin-top: 40px;
+    margin-top: 20px;
   }
 
   .content {
