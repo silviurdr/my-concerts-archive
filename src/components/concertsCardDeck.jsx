@@ -25,12 +25,15 @@ class ConcertsCardDeck extends Component {
               <p className="card-text">{concert.description}</p>
             </div>
             <div className="card-footer">
-              <div className="bufon" onClick={() => this.raiseSort("year")}>
+              <div
+                className="year-button"
+                onClick={() => this.raiseSort("year")}
+              >
                 <small className="year">{concert.year}</small>
               </div>
               <div
                 onClick={() => this.raiseSort("stars")}
-                className="bufon-stars"
+                className="stars-button"
               >
                 <div className="rating">{concert.rating}</div>
               </div>

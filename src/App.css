@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+/************************
+  * MAIN CONTENT STYLE *
+***********************/
+
 .row {
   margin-right: 0px !important;
 }
@@ -17,6 +21,26 @@
   border-top: 13px solid #e6d0b3;
   border-left: 13px solid #e6d0b3;
 }
+
+.main-content {
+  display: block;
+}
+
+.col-2 {
+  border-top: 13px solid #e6d0b3;
+  background-color: #485115;
+  padding: 10px !important;
+  margin: 0 auto !important;
+  margin-left: 10px !important;
+}
+
+.col {
+  padding-right: 0px !important;
+}
+
+/*********************
+ * CARDS DECK STYLE * 
+ *******************/
 
 .card-deck .card {
   display: block;
@@ -55,7 +79,7 @@ small.year:hover {
   cursor: pointer;
 }
 
-.bufon {
+.year-button {
   border: 2px solid#4f4b68;
   overflow: hidden;
   display: inline-block;
@@ -65,7 +89,7 @@ small.year:hover {
   color: #4f4a66;
 }
 
-.bufon-stars {
+.stars-button {
   border: 2px solid#616d1d;
   overflow: hidden;
   display: inline-block;
@@ -77,13 +101,13 @@ small.year:hover {
   min-width: 110px;
 }
 
-.bufon:hover {
+.year-button:hover {
   color: #ecdbc6;
   background-color: #4f4a66;
   cursor: pointer;
 }
 
-.bufon-stars:hover {
+.stars-button:hover {
   border: 2px solid#485115;
   background-color: #485115;
   cursor: pointer;
@@ -108,64 +132,13 @@ small.year:hover {
   color: #fcd682;
 }
 
-.main-content {
-  display: block;
-}
+/******************************
+ * GENRE FILTERING NAV STYLE * 
+ ****************************/
 
 .list-group {
   margin-top: 2em;
   padding-left: 10px;
-}
-
-.col-2 {
-  border-top: 13px solid #e6d0b3;
-  background-color: #485115;
-  padding: 10px !important;
-  margin: 0 auto !important;
-  margin-left: 10px !important;
-}
-
-.col {
-  padding-right: 0px !important;
-}
-
-.pages {
-  border-left: 13px solid #e6d0b3;
-  padding: 1.25rem;
-  margin-left: -15px;
-  background-color: #616d1d;
-  padding-left: 65px;
-}
-
-.page-link {
-  color: black !important;
-  background-color: #e6d0b3 !important;
-  cursor: pointer;
-  border-color: #dfc39f !important;
-}
-
-.page-link:hover {
-  color: #e6cfb3 !important;
-  background-color: #656085 !important;
-  cursor: pointer;
-  border: 1px solid #656085 !important;
-}
-
-.page-item.active .page-link {
-  background-color: #4f4b68 !important;
-  color: #e6d0b3 !important;
-  border-color: #4f4b68 !important;
-}
-
-a {
-  color: black !important;
-  font-weight: 600 !important;
-}
-
-a:active,
-a:visited {
-  color: #22202 !important;
-  font-weight: 600 !important;
 }
 
 a.list-group-item:hover {
@@ -206,7 +179,52 @@ a.list-group-item:focus {
   color: #9ddc56 !important;
 }
 
-/* MEDIA QUERIES */
+/*********************
+ * PAGINATION STYLE *
+********************/
+
+.pages {
+  border-left: 13px solid #e6d0b3;
+  padding: 1.25rem;
+  margin-left: -15px;
+  background-color: #616d1d;
+  padding-left: 65px;
+}
+
+.page-link {
+  color: black !important;
+  background-color: #e6d0b3 !important;
+  cursor: pointer;
+  border-color: #dfc39f !important;
+}
+
+.page-link:hover {
+  color: #e6cfb3 !important;
+  background-color: #656085 !important;
+  cursor: pointer;
+  border: 1px solid #656085 !important;
+}
+
+.page-item.active .page-link {
+  background-color: #4f4b68 !important;
+  color: #e6d0b3 !important;
+  border-color: #4f4b68 !important;
+}
+
+a {
+  color: black !important;
+  font-weight: 600 !important;
+}
+
+a:active,
+a:visited {
+  color: #22202 !important;
+  font-weight: 600 !important;
+}
+
+/******************
+ * MEDIA QUERIES *
+ ****************/
 
 @media only screen and (max-width: 340px) {
   .page-link {
@@ -220,6 +238,7 @@ a.list-group-item:focus {
     padding-left: 15px !important;
   }
 }
+
 @media only screen and (max-width: 584px) {
   .main-content .card-deck {
     display: flex;

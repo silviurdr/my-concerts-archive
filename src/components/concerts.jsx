@@ -36,10 +36,6 @@ class Concerts extends Component {
     this.setState({ selectedGenre: genre, currentPage: 1 });
   };
 
-  lockScreen = () => {
-    this.setState({ bakgroundColor: "red" });
-  };
-
   handleSort = sortYearRating => {
     this.setState({ sortYearRating });
   };
