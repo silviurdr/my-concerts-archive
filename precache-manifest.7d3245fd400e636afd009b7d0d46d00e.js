@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/my-concerts-archive/static/media/radiohead2.1918ac7e.jpg"
   },
   {
-    "revision": "f7824d79867be7e5c915",
-    "url": "/my-concerts-archive/static/css/main.92785eae.chunk.css"
+    "revision": "e19e8747fbb8fa2b47a6",
+    "url": "/my-concerts-archive/static/css/main.7da3cd8d.chunk.css"
   },
   {
     "revision": "f4d4c3a407cd9fd0fb5f",
@@ -232,7 +232,7 @@ self.__precacheManifest = [
     "url": "/my-concerts-archive/static/media/jamesBlake.dfd2706e.jpg"
   },
   {
-    "revision": "f7824d79867be7e5c915",
+    "revision": "e19e8747fbb8fa2b47a6",
     "url": "/my-concerts-archive/static/js/main.793f9b3a.chunk.js"
   },
   {
@@ -460,7 +460,7 @@ self.__precacheManifest = [
     "url": "/my-concerts-archive/static/css/2.8a54f981.chunk.css"
   },
   {
-    "revision": "ee100c1329dcc9837a314ff25842ffdb",
+    "revision": "0f3db2a20c3b1e713956dd681dbce1a4",
     "url": "/my-concerts-archive/index.html"
   }
 ];
