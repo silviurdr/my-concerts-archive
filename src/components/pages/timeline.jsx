@@ -8,7 +8,6 @@ const Timeline = () => {
       <div className="containers">
         <Header />
       </div>
-
       <div class="timeline">
         <div class="timeline-top-circle" />
         <div class="timeline-container-left romania">

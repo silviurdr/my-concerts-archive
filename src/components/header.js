@@ -26,17 +26,17 @@ class Header extends Component {
                       }}
                       className="vw-menu vw-menu-location-top vw-menu-type-text clearfix sf-js-enabled sf-arrows"
                     >
-                      <li className="utility-link">
+                      <li className="utility-link-click">
                         <a
-                          className="utility-linka"
+                          className="utility-link"
                           href="https://silviurdr.github.io/my-concerts-archive/#/"
                         >
                           Home
                         </a>
                       </li>
-                      <li className="utility-link">
+                      <li className="utility-link-click">
                         <a
-                          className="utility-linka"
+                          className="utility-link"
                           href="https://silviurdr.github.io/my-concerts-archive/#/timeline"
                         >
                           Timeline

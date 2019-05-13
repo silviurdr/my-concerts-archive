@@ -290,6 +290,7 @@
 }
 
 @media screen and (max-width: 1089px) {
+
   .timeline::after {
     left: 71px;
   }
@@ -371,6 +372,7 @@
 }
 
 @media screen and (max-width: 620px) {
+  
   .timeline::after {
     left: 51px;
     top: 50px;
