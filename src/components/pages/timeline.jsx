@@ -16,7 +16,7 @@ const Timeline = () => {
             <div class="content-border">
               <h2 class="year-header">2010 - 2012</h2>
               <h3 class="concerts-header">Romania</h3>
-              <div class="concerts-image">
+              <div class="concerts-container-mob">
                 The Cranberries<span class="bull">&bull;</span>
                 Massive Attack
                 <span class="bull">&bull;</span>
@@ -41,7 +41,7 @@ const Timeline = () => {
             <div class="content-border">
               <h2 class="year-header">2013</h2>
               <h3 class="concerts-header">Rock Werchter</h3>
-              <div class="concerts-image">
+              <div class="concerts-container-mob">
                 Balthazar
                 <span class="bull">&bull;</span>
                 Biffy Clyro
@@ -113,7 +113,7 @@ const Timeline = () => {
             <div class="content-border">
               <h2 class="year-header">2015</h2>
               <h3 class="concerts-header">Rock Werchter</h3>
-              <div class="concerts-image">
+              <div class="concerts-container-mob">
                 Chet Faker
                 <span class="bull">&bull;</span>
                 Rise Against
@@ -170,7 +170,7 @@ const Timeline = () => {
             <div class="content-border">
               <h2 class="year-header">2016</h2>
               <h3 class="concerts-header">Nos Alive</h3>
-              <div class="concerts-image">
+              <div class="concerts-container-mob">
                 The 1975
                 <span class="bull">&bull;</span>
                 Biffy Clyro
@@ -222,7 +222,7 @@ const Timeline = () => {
             <div class="content-border">
               <h2 class="year-header">2017</h2>
               <h3 class="concerts-header">Rock Werchter</h3>
-              <div class="concerts-image">
+              <div class="concerts-container-mob">
                 Cigarettes After Sex
                 <span class="bull">&bull;</span>
                 Mark Lanegan Band
@@ -304,7 +304,7 @@ const Timeline = () => {
             <div class="content-border">
               <h2 class="year-header">2018</h2>
               <h3 class="concerts-header">Primavera Sound</h3>
-              <div class="concerts-image">
+              <div class="concerts-container-mob">
                 Spiritualized
                 <span class="bull">&bull;</span>
                 Belle &#38; Sebastian
@@ -410,7 +410,7 @@ const Timeline = () => {
             <div class="content-border">
               <h2 class="year-header">2018</h2>
               <h3 class="concerts-header">Rock Werchter</h3>
-              <div class="concerts-image">
+              <div class="concerts-container-mob">
                 Gang of Youths
                 <span class="bull">&bull;</span>
                 The Vaccines

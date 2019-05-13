@@ -219,7 +219,7 @@ div.timeline-container-left.left.romania {
   margin-bottom: 0.4em;
 }
 
-.concerts-image {
+.concerts-container-mob {
   display: none;
 }
 
@@ -441,7 +441,7 @@ div.timeline-container-left.left.romania {
     height: 100%;
   }
 
-  .concerts-image {
+  .concerts-container-mob {
     display: block;
     width: 100%;
     text-align: center;

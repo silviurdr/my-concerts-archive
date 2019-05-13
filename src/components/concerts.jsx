@@ -9,7 +9,7 @@ import Filtering from "./filtering";
 import BurgerMenu from "./burgerMenu";
 import _ from "lodash";
 
-class Concertos extends Component {
+class Concerts extends Component {
   state = {
     genres: [],
     concerts: [],
@@ -106,4 +106,4 @@ class Concertos extends Component {
   }
 }
 
-export default Concertos;
+export default Concerts;
