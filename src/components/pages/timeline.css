@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+
+/************************
+ * THE ACTUAL TIMELINE *
+ **********************/
+
 .timeline {
   background-color: #ecdbc6;
   font-family: Courier, monospace, sans-serif;
@@ -30,13 +35,12 @@
 .timeline-top-circle::after {
   content: "";
   position: absolute;
-  width:26px;
+  width: 26px;
   height: 26px;
   right: -13px;
   background-color: #616d1d;
   border: 4px solid #616d1d;
   border-radius: 50%;
-  top: 8;
   top: 112%;
   z-index: 4;
 }
@@ -50,7 +54,7 @@
 .timeline-bottom-circle::after {
   content: "";
   position: absolute;
-  width:26px;
+  width: 26px;
   height: 26px;
   right: -13px;
   background-color: #616d1d;
@@ -72,17 +76,21 @@
   position: relative;
   background-color: inherit;
   width: 50%;
+  left: 50%;
 }
 
+/*******************************
+ * THE TIMELINE'S IMAGE MARKERS *
+ ******************************/
 
-div.timeline-container-left.left.romania {
+.timeline-container-left.romania {
   margin-top: 120px;
 }
 
-.timeline-container-left.left.romania::before {
+.timeline-container-left.romania::before {
   content: "";
   position: absolute;
-  width:80px;
+  width: 80px;
   height: 80px;
   right: -40px;
   background-color: inherit;
@@ -93,10 +101,10 @@ div.timeline-container-left.left.romania {
   background: url("../../images/romanianconcertslogo.jpg") no-repeat;
 }
 
-.timeline-container-right.right.rw2013::before {
+.timeline-container-right.rw2013::before {
   content: "";
   position: absolute;
-  width:80px;
+  width: 80px;
   height: 80px;
   left: -40px;
   background-color: inherit;
@@ -107,13 +115,13 @@ div.timeline-container-left.left.romania {
   background: url("../../images/rockwerchter2013logo.jpg") no-repeat;
 }
 
-.timeline-container-left.left.rw2015::before {
+.timeline-container-left.rw2015::before {
   content: "";
   position: absolute;
-  width:80px;
+  width: 80px;
   height: 80px;
   right: -40px;
-  background-color:inherit;
+  background-color: inherit;
   border: 4px solid #616d1d;
   top: 26%;
   border-radius: 5%;
@@ -121,52 +129,10 @@ div.timeline-container-left.left.romania {
   background: url("../../images/rockwerchter2015logo.jpg") no-repeat;
 }
 
-.timeline-container-left.left.rw2017::before {
+.timeline-container-right.nosalive::before {
   content: "";
   position: absolute;
-  width:80px;
-  height: 80px;
-  right: -40px;
-  background-color:inherit;
-  border: 4px solid #616d1d;
-  top: 23%;
-  border-radius: 5%;
-  z-index: 1;
-  background: url("../../images/rockwerchter2017logo.jpg") no-repeat;
-}
-
-.timeline-container-right.right.ps2018::before {
-  content: "";
-  position: absolute;
-  width:80px;
-  height: 80px;
-  left: -40px;
-  background-color: inherit;
-  border: 4px solid #616d1d;
-  top: 22%;
-  border-radius: 5%;
-  z-index: 1;
-  background: url("../../images/primaverasoundlogo.jpg") no-repeat;
-}
-
-.timeline-container-left.left.rw2018::before {
-  content: "";
-  position: absolute;
-  width:80px;
-  height: 80px;
-  right: -40px;
-  background-color:inherit;
-  border: 4px solid #616d1d;
-  top: 23%;
-  border-radius: 5%;
-  z-index: 1;
-  background: url("../../images/rockwerchter2018logo.jpg") no-repeat;
-}
-
-.timeline-container-right.right.nosalive::before {
-  content: "";
-  position: absolute;
-  width:80px;
+  width: 80px;
   height: 80px;
   left: -40px;
   background-color: inherit;
@@ -177,17 +143,51 @@ div.timeline-container-left.left.romania {
   background: url("../../images/nosalivelogo.jpg") no-repeat;
 }
 
-.left {
-  left: 0;
+.timeline-container-left.rw2017::before {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  right: -40px;
+  background-color: inherit;
+  border: 4px solid #616d1d;
+  top: 23%;
+  border-radius: 5%;
+  z-index: 1;
+  background: url("../../images/rockwerchter2017logo.jpg") no-repeat;
 }
 
-.right {
-  left: 50%;
+.timeline-container-right.ps2018::before {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: -40px;
+  background-color: inherit;
+  border: 4px solid #616d1d;
+  top: 22%;
+  border-radius: 5%;
+  z-index: 1;
+  background: url("../../images/primaverasoundlogo.jpg") no-repeat;
 }
 
-.right::after {
-  left: -16px;
+.timeline-container-left.rw2018::before {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  right: -40px;
+  background-color: inherit;
+  border: 4px solid #616d1d;
+  top: 23%;
+  border-radius: 5%;
+  z-index: 1;
+  background: url("../../images/rockwerchter2018logo.jpg") no-repeat;
 }
+
+/************************************
+ * CONTENT FOR EACH OF THE YEARS *
+ ***********************************/
 
 .content {
   padding: 20px 30px;
@@ -272,53 +272,51 @@ div.timeline-container-left.left.romania {
 }
 
 
-/* MEDIA QUERIES */
-
+/*****************
+ * MEDIA QUERIES *
+ *****************/
 
 @media screen and (min-width: 1090px) and (max-width: 1360px) {
 
+
   .timeline-container-left {
-    padding: 10px 50px 0px 10px;
-    position: relative;
-    background-color: inherit;
-    width: 50%;
+    padding: 0px 50px 0px 10px;
   }
-  
+
   .timeline-container-right {
     padding: 10px 10px 0px 50px;
-    position: relative;
-    background-color: inherit;
-    width: 50%;
   }
+
+
 }
 
-
 @media screen and (max-width: 1089px) {
-
-
-  div.timeline-container-left.left.romania::before {
-    top: 38%;
-  }
-  
-  .timeline-container-left.left.rw2015::before {
-    top: 27%;
-  }
-  
-  
-  .timeline-container-left.left.rw2017::before {
-    top: 27%;
-  }
-  
-  .timeline-container-left.left.rw2018::before {
-    top: 27%;
-  }
-
-
   .timeline::after {
     left: 71px;
   }
 
-  .timeline-bottom-circle::after, .timeline-top-circle::after {
+  .timeline-container-left.romania {
+    margin-top: 90px;
+  }
+
+  .timeline-container-left.romania::before {
+    top: 38%;
+  }
+
+  .timeline-container-left.rw2015::before {
+    top: 27%;
+  }
+
+  .timeline-container-left.rw2017::before {
+    top: 27%;
+  }
+
+  .timeline-container-left.rw2018::before {
+    top: 27%;
+  }
+
+  .timeline-bottom-circle::after,
+  .timeline-top-circle::after {
     left: 58px;
   }
 
@@ -327,8 +325,13 @@ div.timeline-container-left.left.romania {
     padding-bottom: 50px;
   }
 
-  .timeline-container-right, .timeline-container-left {
+  .timeline-container-right,
+  .timeline-container-left {
     padding: 10px 20px 0px 60px;
+  }
+
+  .timeline-container-right {
+    left: 0;
   }
 
   .container-left {
@@ -343,92 +346,57 @@ div.timeline-container-left.left.romania {
     padding-right: 30px;
   }
 
-  .left::before  {
-    left: 17px;
-  }
-
-  .right {
-    left: 0px;
-  }
-
-  .timeline-container-left.left, .timeline-container-right.right {
+  .timeline-container-left,
+  .timeline-container-right {
     width: 100%;
   }
 
-  .timeline-container-left.left::before {
+  .timeline-container-left::before {
     left: 30px;
   }
 
-  .timeline-container-right.right::before  {
+  .timeline-container-right::before {
     left: 30px !important;
   }
-
 }
 
 @media screen and (min-width: 621px) and (max-width: 926px) {
 
+  .timeline-container-left.romania {
+    margin-top: 90px;
+  }
 
-  .timeline-container-left.left.romania::before {
-    top: 0%;
+  .timeline-container-left.romania::before {
+    top: 36%;
   }
 }
 
-
 @media screen and (max-width: 620px) {
-
-
-  .timeline::after  {
+  .timeline::after {
     left: 51px;
     top: 50px;
     width: 3px;
   }
 
-  .timeline-top-circle {
-    padding-top: 40px;
-    width: 50%;
-    position: relative;
-  }
-
   .timeline-bottom-circle {
     padding-bottom: 80px;
-    width: 50%;
-    position: relative;
   }
 
-  .timeline-top-circle::after  {
-    content: "";
-    position: absolute;
-    width:16px;
+  .timeline-top-circle::after {
+    width: 16px;
     height: 16px;
     left: 41.49px;
-    background-color: #616d1d;
-    border: 4px solid #616d1d;
-    border-radius: 50%;
     top: 90%;
-    z-index: 4;
   }
 
   .timeline-bottom-circle::after {
-    content: "";
-    position: absolute;
-    width:16px;
+    width: 16px;
     height: 16px;
     left: 41.49px;
-    background-color: #616d1d;
-    border: 4px solid #616d1d;
-    border-radius: 50%;
     top: 37%;
-    z-index: 4;
   }
 
-  .timeline-container {
-    padding: 30px 40px 0px 40px;
-    position: relative;
-    background-color: inherit;
-    width: 100%;
-  }
-
-  div.timeline-container-left.left.romania {
+  .timeline-container-left.romania {
     margin-top: 40px;
   }
 
@@ -446,25 +414,18 @@ div.timeline-container-left.left.romania {
     width: 100%;
     text-align: center;
     margin: 0 auto;
-    color: black!important;
+    color: black !important;
     font-size: 0.6em;
     padding: 5px 5px 10px 5px;
     text-align: center;
   }
 
   .year-header {
-    font-weight: 900;
     font-size: 1.1em;
-    color: #f8f3ec;
-    text-align: center;
-    margin-bottom: 0.5em;
   }
-  
+
   .concerts-header {
-    font-weight: 900;
     font-size: 1em;
-    color: #e4563e;
-    text-align: center;
     margin-bottom: 1em;
   }
 
@@ -472,129 +433,70 @@ div.timeline-container-left.left.romania {
     display: none;
   }
 
-  .timeline-container.left, .timeline-container.right {
-    padding: 20px!important;
-  }
-
-  .timeline-container.left.romania > .content {
+  .timeline-container.romania > .content {
     margin-top: 10px;
   }
 
-  .timeline-container-left.timeline-container.left::before  {
-    content: "";
-    position: absolute;
-    width: 56px !important; 
+  .timeline-container-left.romania::before {
+    width: 56px !important;
     height: 56px !important;
     left: 23px;
-    background-color: inherit;
-    border: 3px solid #616d1d;
-    top: 18%;
-    z-index: 1;
-    background: url("../../images/nosalivelogo-mob.jpg") no-repeat;
-  }
-
-  .timeline-container-left.timeline-container-left.left.romania::before  {
-    content: "";
-    position: absolute;
-    width: 56px !important; 
-    height: 56px !important;
-    left: 23px;
-    background-color: inherit;
     border: 3px solid #616d1d;
     top: 43%;
-    z-index: 1;
     background: url("../../images/romanianconcertslogo-mob.jpg") no-repeat;
   }
 
-  .timeline-container-left.timeline-container-left.left.rw2015::before  {
-    content: "";
-    position: absolute;
-    width: 58px !important; 
-    height: 58px !important;
-    left: 23px;
-    background-color: inherit;
-    border: 3px solid #616d1d;
-    top: 28%;
-    z-index: 1;
-    background: url("../../images/nosalivelogo-mob.jpg") no-repeat;
-  }
-
-  .timeline-container-left.timeline-container-left.left.rw2017::before  {
-    content: "";
-    position: absolute;
-    width: 56px !important; 
-    height: 56px !important;
-    left: 23px;
-    background-color: inherit;
-    border: 3px solid #616d1d;
-    top: 27%;
-    z-index: 1;
-    background: url("../../images/rockwerchter2017logo-mob.jpg") no-repeat;
-  }
-
-  .timeline-container-left.timeline-container-left.left.rw2018::before  {
-    content: "";
-    position: absolute;
-    width: 56px !important; 
-    height: 56px !important;
-    left: 23px;
-    background-color: inherit;
-    border: 3px solid #616d1d;
-    top: 27%;
-    z-index: 1;
-    background: url("../../images/rockwerchter2018logo-mob.jpg") no-repeat;
-  }
-
-  .timeline-container-right.timeline-container-right.right::before {
-    content: "";
-    position: absolute;
+  .timeline-container-right.rw2013::before {
     width: 56px;
     height: 56px;
     left: 23px !important;
-    background-color: inherit;
-    border: 3px solid #616d1d;
-    top: 23%;
-    z-index: 1;
-    background: url("../../images/primaverasoundlogo-mob.jpg") no-repeat;
-  }
-
-  .timeline-container-right.timeline-container-right.right.nosalive::before {
-    content: "";
-    position: absolute;
-    width:56px;
-    height: 56px;
-    left: 23px !important;
-    background-color: inherit;
-    border: 3px solid #616d1d;
-    top: 33%;
-    z-index: 1;
-    background: url("../../images/nosalivelogo-mob.jpg") no-repeat;
-  }
-
-  .timeline-container-right.timeline-container-right.right.rw2013::before {
-    content: "";
-    position: absolute;
-    width:56px;
-    height: 56px;
-    left: 23px !important;
-    background-color: inherit;
     border: 3px solid #616d1d;
     top: 31%;
-    z-index: 1;
     background: url("../../images/rockwerchter2013logo-mob.jpg") no-repeat;
   }
 
-
-  .timeline-container-left.timeline-container-left.left.rw2015::before  {
-    content: "";
-    position: absolute;
-    width: 56px !important; 
+  .timeline-container-left.rw2015::before {
+    width: 56px !important;
     height: 56px !important;
     left: 23px;
-    background-color: inherit;
     border: 3px solid #616d1d;
     top: 31%;
-    z-index: 1;
     background: url("../../images/rockwerchter2015logo-mob.jpg") no-repeat;
+  }
+
+  .timeline-container-right.nosalive::before {
+    width: 56px;
+    height: 56px;
+    left: 23px !important;
+    border: 3px solid #616d1d;
+    top: 33%;
+    background: url("../../images/nosalivelogo-mob.jpg") no-repeat;
+  }
+
+  .timeline-container-left.rw2017::before {
+    width: 56px !important;
+    height: 56px !important;
+    left: 23px;
+    border: 3px solid #616d1d;
+    top: 27%;
+    background: url("../../images/rockwerchter2017logo-mob.jpg") no-repeat;
+  }
+
+  .timeline-container-right.ps2018::before {
+    width: 56px;
+    height: 56px;
+    left: 23px !important;
+    border: 3px solid #616d1d;
+    top: 23%;
+    background: url("../../images/primaverasoundlogo-mob.jpg") no-repeat;
+  }
+
+  .timeline-container-left.rw2018::before {
+    width: 56px !important;
+    height: 56px !important;
+    left: 23px;
+    border: 3px solid #616d1d;
+    top: 27%;
+    background: url("../../images/rockwerchter2018logo-mob.jpg") no-repeat;
   }
 }

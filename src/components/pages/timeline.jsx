@@ -11,7 +11,7 @@ const Timeline = () => {
 
       <div class="timeline">
         <div class="timeline-top-circle" />
-        <div class="timeline-container-left left romania">
+        <div class="timeline-container-left romania">
           <div class="content">
             <div class="content-border">
               <h2 class="year-header">2010 - 2012</h2>
@@ -36,7 +36,7 @@ const Timeline = () => {
             </div>
           </div>
         </div>
-        <div class="timeline-container-right right rw2013">
+        <div class="timeline-container-right rw2013">
           <div class="content">
             <div class="content-border">
               <h2 class="year-header">2013</h2>
@@ -108,7 +108,7 @@ const Timeline = () => {
             </div>
           </div>
         </div>
-        <div class="timeline-container-left left rw2015">
+        <div class="timeline-container-left rw2015">
           <div class="content">
             <div class="content-border">
               <h2 class="year-header">2015</h2>
@@ -165,7 +165,7 @@ const Timeline = () => {
             </div>
           </div>
         </div>
-        <div class="timeline-container-right right nosalive">
+        <div class="timeline-container-right nosalive">
           <div class="content">
             <div class="content-border">
               <h2 class="year-header">2016</h2>
@@ -217,7 +217,7 @@ const Timeline = () => {
             </div>
           </div>
         </div>
-        <div class="timeline-container-left left rw2017">
+        <div class="timeline-container-left rw2017">
           <div class="content">
             <div class="content-border">
               <h2 class="year-header">2017</h2>
@@ -299,7 +299,7 @@ const Timeline = () => {
             </div>
           </div>
         </div>
-        <div class="timeline-container-right right ps2018">
+        <div class="timeline-container-right ps2018">
           <div class="content">
             <div class="content-border">
               <h2 class="year-header">2018</h2>
@@ -405,7 +405,7 @@ const Timeline = () => {
             </div>
           </div>
         </div>
-        <div class="timeline-container-left left rw2018">
+        <div class="timeline-container-left rw2018">
           <div class="content">
             <div class="content-border">
               <h2 class="year-header">2018</h2>
