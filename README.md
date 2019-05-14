@@ -23,6 +23,10 @@ The application is composed of the following components:
 
 * Timeline - placed in a separated page, presents the timeline of the concerts archive
 
+**Screnshots** :
+
+[Mobile][./images/screenshot-mobile.jpg]
+
 ---
 
 ## Technologies used
