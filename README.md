@@ -45,10 +45,10 @@ The application is composed of the following components:
 
 ### **Screenshots :**
 
-![Mobile](./src/images/screenshot-mobile.jpg)
+![Mobile](./src/images/screenshot-moble.jpg)
 
 
-![Mobile](./src/images/screenshot-desktop.jpg)
+![Mobile](./src/images/screenshot-deskop.jpg)
 
 
 
