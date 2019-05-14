@@ -19,4 +19,7 @@ The application is composed of the following components:
 
 * Pagination - present at the bottom of the home page, it's used to navigate between the pages of the ConcertsCardDeck component (12 concert cards displayed per page)
 
+* BurgerMenu - available only for smaller devices, it has the same functions as the Filtering component
+
 * Timeline - placed in a separated page, presents the timeline of the concerts archive
+
