@@ -24,3 +24,11 @@ The application is composed of the following components:
 * Timeline - placed in a separated page, presents the timeline of the concerts archive
 
 ---
+
+## Technologies used
+
+* React
+* JavaScript
+* Bootstrap 4
+* HTML5
+* CSS3
