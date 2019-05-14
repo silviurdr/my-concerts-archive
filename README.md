@@ -27,7 +27,7 @@ The application is composed of the following components:
 
 * Filtering - the component responsible for the filtering of the concerts by genre
 
-* Pagination - present at the bottom of the home page, it's used to navigate between the pages of the ConcertsCardDeck component (12 concert cards displayed per page)
+* Pagination - present at the bottom of the home page, it's used to navigate between the pages of the ConcertsCardDeck component (12 concert-cards displayed per page)
 
 * BurgerMenu - available only for smaller devices, it has the same functions as the Filtering component
 
