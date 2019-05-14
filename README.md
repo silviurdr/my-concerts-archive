@@ -25,7 +25,7 @@ The application is composed of the following components:
 
 **Screnshots** :
 
-![Mobile][./images/screenshot-mobile.jpg]
+![Mobile](./images/screenshot-mobile.jpg)
 
 ---
 
