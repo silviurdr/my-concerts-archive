@@ -23,13 +23,6 @@ The application is composed of the following components:
 
 * Timeline - placed in a separated page, presents the timeline of the concerts archive
 
-**Screnshots** :
-
-![Mobile](./src/images/screenshot-mobile.jpg)
-
-![Mobile](./src/images/screenshot-desktop.jpg)
-
----
 
 ## Technologies used 
 
@@ -38,3 +31,15 @@ The application is composed of the following components:
 * Bootstrap 4
 * HTML5
 * CSS3
+
+
+**Screnshots** :
+
+![Mobile](./src/images/screenshot-mobile.jpg)
+
+---
+
+![Mobile](./src/images/screenshot-desktop.jpg)
+
+
+
