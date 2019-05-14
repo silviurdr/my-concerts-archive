@@ -2,7 +2,17 @@
 
 A React application in which I present all the important music concerts I've attended.
 
-Live demo is available [here](https://silviurdr.github.io/my-concerts-archive/#/)
+Live demo is available **[here](https://silviurdr.github.io/my-concerts-archive/#/)**
+
+
+## Experience gained while building this app
+
+* Learned the basics of React (Components, JSX language, Props, State)
+* Improved my knowledge about ES6
+* Learned to deploy a React app
+* Implementing Responsive Design
+* Working with components and utilities from Bootstrap 4
+
 
 ## Structure of the app
 
@@ -23,18 +33,22 @@ The application is composed of the following components:
 
 * Timeline - placed in a separated page, presents the timeline of the concerts archive
 
-**Screnshots** :
 
-![Mobile](./src/images/screenshot-mobile.jpg)
-
-![Mobile](./src/images/screenshot-desktop.jpg)
-
----
-
-## Technologies used
+## Technologies used 
 
 * React
 * JavaScript
 * Bootstrap 4
 * HTML5
 * CSS3
+
+
+### **Screenshots :**
+
+![Mobile](./src/images/screenshot-mobile.jpg)
+
+
+![Mobile](./src/images/screenshot-desktop.jpg)
+
+
+
