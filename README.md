@@ -4,6 +4,16 @@ A React application in which I present all the important music concerts I've att
 
 Live demo is available **[here](https://silviurdr.github.io/my-concerts-archive/#/)**
 
+
+## Experience gained while building this app
+
+* Learned the basics of React (Components, JSX language, Props, the State)
+* Improved my knowledge about ES6
+* Learned to deploy a React app
+* Implementing Responsive Design
+* Working with components and utilities from Bootstrap 4
+
+
 ## Structure of the app
 
 The application is composed of the following components:
