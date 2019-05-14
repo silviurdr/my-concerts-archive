@@ -23,7 +23,7 @@ The application is composed of the following components:
 
 * Concerts - the main content of the home page.
 
-* ConcertsCardDeck - the area in which all the concerts cards are displayed. Each concert card has an image, a title, a description and a footer with sort buttons by year and rating.
+* ConcertsCardDeck - the area in which all the concerts cards are displayed. Each concert card has an image, a title, a description and a footer with sort by year and sort by rating buttons.
 
 * Filtering - the component responsible for the filtering of the concerts by genre
 
