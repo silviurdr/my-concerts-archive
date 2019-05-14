@@ -7,7 +7,7 @@ Live demo is available **[here](https://silviurdr.github.io/my-concerts-archive/
 
 ## Experience gained while building this app
 
-* Learned the basics of React (Components, JSX language, Props, the State)
+* Learned the basics of React (Components, JSX language, Props, State)
 * Improved my knowledge about ES6
 * Learned to deploy a React app
 * Implementing Responsive Design
