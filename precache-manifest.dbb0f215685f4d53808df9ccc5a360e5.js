@@ -428,12 +428,12 @@ self.__precacheManifest = [
     "url": "/my-concerts-archive/static/media/arcticMonkeys2.21746c93.jpg"
   },
   {
-    "revision": "b268a847584d64fc3c9a727b4a33ee10",
-    "url": "/my-concerts-archive/static/media/header-title-mob.b268a847.jpg"
-  },
-  {
     "revision": "6c845ac452b7d2b34f7efbabb4a64910",
     "url": "/my-concerts-archive/static/media/header-title.6c845ac4.jpg"
+  },
+  {
+    "revision": "b268a847584d64fc3c9a727b4a33ee10",
+    "url": "/my-concerts-archive/static/media/header-title-mob.b268a847.jpg"
   },
   {
     "revision": "1f9fb26df254fcab920ccf4567b4cedf",
