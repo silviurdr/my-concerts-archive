@@ -31,7 +31,7 @@ The application is composed of the following components:
 
 ---
 
-## Technologies used
+## Technologies used 
 
 * React
 * JavaScript
