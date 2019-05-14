@@ -43,7 +43,7 @@ The application is composed of the following components:
 * CSS3
 
 
-**Screenshots :**
+### **Screenshots :**
 
 ![Mobile](./src/images/screenshot-mobile.jpg)
 
